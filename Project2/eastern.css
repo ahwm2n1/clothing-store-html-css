@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+}
+.head{
+    background-color: transparent;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 70%;
+    height: 60px;
+    margin-left: 230px;
+    margin-top: 30px;
+    box-shadow: 0 4px 9px rgba(28, 26, 26, 0.8);
+    background-color: transparent;
+}
+.anav{
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.header2{
+    background-color: transparent;
+    text-align: center;
+    margin-top: 50px;
+}
+.header2h{
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(4, 32, 37);
+}
+.styleby{
+    display: inline-flex;
+    height: 600px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    color: aliceblue;
+    font-family: serif;
+    
+}
+.style1{
+    color: rgb(53, 48, 48);
+    background-color: #fffefd;
+    width: 300px;
+    padding-top: 20px;
+    border-radius: 20px;
+    height:  450px;
+    transition: all ease-in-out 1s;
+}
+.style1:hover{
+    padding: 10px;
+}
+.simg1{
+    border-radius: 10px;
+}
+.conmain{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+.cont1{
+    width: 300px;
+    height: 500px;
+    background-color: transparent;
+    display: inline-table;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.img1{
+    margin: 20px;
+    border-radius: 10px;
+     transition: all ease-in 1s;
+}
+.img1:hover{
+    padding: 10px;
+}
+.about1{
+    margin-left: 40px;
+    color:  #442802;
+}
+.cont2{
+    margin-top: 50px;
+}
+.img2{
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: all ease-in 1s;
+    
+}
+.img2:hover{
+    padding: 10px;
+}
+.about2{
+    margin-top: 20px;
+    margin-left: 30px;
+     color:  #442802;
+}
+.ch2{
+    margin-left: 30px;
+     color:  #442802;
+}
+.p2{
+    margin-left: 30px;
+     color:  #442802;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fffefd;
+}
+.services{
+    margin-top: 45px;
+}
+.policies{
+    margin-bottom: 10px;
+    padding: 10px;
+}

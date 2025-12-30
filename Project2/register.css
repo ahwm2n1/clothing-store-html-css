@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+}
+form{
+    width: 400px;
+
+    height: 700px;
+    border: 2px solid beige;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    margin-left: 550px;
+    margin-top: 70px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    animation-name: coloranimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 30;
+}
+@keyframes coloranimation{
+    from{ background-color: rgb(250, 163, 195);}
+    to{ background-color: cornsilk; }
+}
+.h1{
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-bottom: 40px;
+}
+.username{
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.username1{
+    color: rgb(26, 16, 36);
+    font-size: 25px;
+        margin-right: 180px;
+
+}
+.username2{
+    background-color: beige;
+    width: 300px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.fullname{
+    height: 80px;
+    width: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fullone{
+    font-size: 25px;
+    color: rgb(17, 22, 22);
+        margin-right: 150px;
+
+}
+.fullname1{
+    width: 300px;
+    height: 45px;
+    background-color: beige;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.email{
+    width: 300px;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.email1{
+    color: black;
+    font-size: 25px;
+        margin-right: 195px;
+
+}
+.email2{
+    background-color: beige;
+    width: 300px;
+    height: 45px;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.phone{
+    background-color: transparent;
+    height: 80px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.phone1{
+    color: black;
+    font-size: 25px;
+        margin-right: 170px;
+
+}
+.phone2{
+    background-color: beige;
+    width: 300px;
+    height: 45px;
+    border: 1px solid  white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.pass{
+    background-color: transparent;
+    height: 80px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pass1{
+    color: black;
+    font-size: 25px;
+    margin-right: 170px;
+}
+.pass2{
+    width: 300px;
+    height: 45px;
+    background-color:  beige;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.password1{
+    background-color: transparent;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.password2{
+    font-size: 25px;
+        margin-right: 90px;
+
+
+}
+.password3{
+    width: 300px;
+    height: 40px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 20px;
+}
+.bt{
+    margin-top: 30px;
+    width: 100px;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
